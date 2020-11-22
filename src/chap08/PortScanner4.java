@@ -43,7 +43,7 @@ public class PortScanner4 {
     }
 
     public static void main(String[] args) {
-        String host = "localhost"; int timeout = 100;
+        String host = "www.skhu.ac.kr"; int timeout = 500;
         int portFrom = 1, portTo = 10000;
 
         ExecutorService executor = Executors.newFixedThreadPool(1000);
